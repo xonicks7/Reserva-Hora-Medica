@@ -1,0 +1,8 @@
+
+services:
+  reserva-medica:
+    build: .
+    container_name: reserva-medica
+    ports:
+      - "8080:80"
+    restart: unless-stopped
